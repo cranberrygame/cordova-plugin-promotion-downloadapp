@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="cordova-plugin-promotion-downloadapp"
-    version="1.0.30">
+    id="cordova-plugin-share-downloadapp"
+    version="1.0.31">
 	
     <name>Cordova DownloadApp plugin</name>
     <description>Cordova DownloadApp plugin</description>
     <author>Sang Ki Kwon (Cranberrygame)</author>		
     <license>MIT</license>
     <keywords>cordova,plugin,downloadapp</keywords>
-    <repo>https://github.com/cranberrygame/cordova-plugin-promotion-downloadapp</repo>
-    <issue>https://github.com/cranberrygame/cordova-plugin-promotion-downloadapp/issues</issue> 	
+    <repo>https://github.com/cranberrygame/cordova-plugin-share-downloadapp</repo>
+    <issue>https://github.com/cranberrygame/cordova-plugin-share-downloadapp/issues</issue> 	
 	<engines>
 	    <engine name="cordova" version=">=3.0.0" />
 	</engines>
 	
-    <dependency id="org.apache.cordova.inappbrowser" />	
+    <dependency id="cordova-plugin-inappbrowser" />	
 	
     <js-module src="www/downloadapp.js">
         <clobbers target="window.downloadapp"/>

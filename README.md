@@ -1,2 +1,2 @@
 
-# cordova-plugin-promotion-downloadapp
+# cordova-plugin-share-downloadapp
