@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="cordova-plugin-share-downloadapp"
-    version="1.0.31">
+    version="1.0.32">
 	
     <name>Cordova DownloadApp plugin</name>
     <description>Cordova DownloadApp plugin</description>
@@ -17,7 +17,7 @@
 	
     <dependency id="cordova-plugin-inappbrowser" />	
 	
-    <js-module src="www/downloadapp.js">
+    <js-module src="www/downloadapp.js" name="downloadapp">
         <clobbers target="window.downloadapp"/>
     </js-module>
 	
